@@ -1,5 +1,3 @@
-package android
-
 group 'com.wescj.eraser'
 version '1.0'
 
