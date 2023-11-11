@@ -1,3 +1,5 @@
+package android
+
 group 'com.wescj.eraser'
 version '1.0'
 
@@ -22,10 +24,13 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
+    namespace 'com.wescj.eraser'
+
+    compileSdk 34
 
     defaultConfig {
         minSdkVersion 16
+        targetSdkVersion 34
     }
     lintOptions {
         disable 'InvalidPackage'
